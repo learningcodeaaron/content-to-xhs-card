@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>前面-Aaron · 内容卡片编辑器</title>
+  <style>
+/*__EDITOR_CSS__*/
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <header class="sidebar-header">
+        <div class="brand-lockup">
+          <a class="brand-mark" href="https://nextwaylab.com/" target="_blank" rel="noopener noreferrer" title="访问前面-Aaron" aria-label="访问前面-Aaron 网站">
+            <img id="brandIcon" alt="前面-Aaron">
+          </a>
+          <div>
+            <h1>内容卡片编辑</h1>
+            <p id="saveStatus">前面-Aaron · 自动保存</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="icon-btn" id="undoBtn" type="button" title="撤销" aria-label="撤销">↶</button>
+          <button class="icon-btn" id="redoBtn" type="button" title="重做" aria-label="重做">↷</button>
+        </div>
+      </header>
+
+      <section class="card-section">
+        <div class="section-heading">
+          <span>卡片</span>
+          <span id="cardCount">0 张</span>
+        </div>
+        <div class="card-list" id="cardList"></div>
+        <div class="card-actions">
+          <button class="secondary-btn" id="addCardBtn" type="button">添加</button>
+          <button class="icon-btn" id="cardUpBtn" type="button" title="卡片上移" aria-label="卡片上移">↑</button>
+          <button class="icon-btn" id="cardDownBtn" type="button" title="卡片下移" aria-label="卡片下移">↓</button>
+          <button class="icon-btn" id="duplicateCardBtn" type="button" title="复制卡片" aria-label="复制卡片">⧉</button>
+          <button class="icon-btn danger" id="deleteCardBtn" type="button" title="删除卡片" aria-label="删除卡片">×</button>
+        </div>
+      </section>
+
+      <nav class="editor-tabs" aria-label="编辑器分区">
+        <button class="tab-btn is-active" type="button" data-tab="card">卡片</button>
+        <button class="tab-btn" type="button" data-tab="element">元素</button>
+        <button class="tab-btn" type="button" data-tab="page">页面</button>
+        <button class="tab-btn" type="button" data-tab="publication">发布正文</button>
+      </nav>
+      <section class="editor-panel" id="editorPanel"></section>
+    </aside>
+
+    <main class="workspace">
+      <header class="workspace-header">
+        <div>
+          <h2 id="deckTitle">内容卡片预览</h2>
+          <p id="deckMeta">1080 × 1440</p>
+        </div>
+        <div class="workspace-actions">
+          <button class="secondary-btn" id="exportJsonBtn" type="button">JSON</button>
+          <button class="secondary-btn" id="importJsonBtn" type="button">导入</button>
+          <button class="primary-btn" id="exportPngBtn" type="button">导出当前 PNG</button>
+          <button class="primary-btn" id="exportAllBtn" type="button">导出全部（ZIP）</button>
+        </div>
+      </header>
+
+      <section class="canvas-toolbar">
+        <label>布局
+          <select id="layoutSelect"></select>
+        </label>
+        <label>配色
+          <select id="themeSelect">
+            <option value="warm-editorial">热烈撞色</option>
+            <option value="coral-paper">珊瑚纸张</option>
+            <option value="rose-ink">玫瑰墨色</option>
+            <option value="midnight-neon">深夜霓虹</option>
+          </select>
+        </label>
+        <div class="segmented-control" role="group" aria-label="配色作用范围">
+          <button class="segment-btn is-active" id="themeAllBtn" type="button" aria-pressed="true">整套</button>
+          <button class="segment-btn" id="themeCurrentBtn" type="button" aria-pressed="false">单卡</button>
+        </div>
+        <label class="toggle-label">
+          <input id="snapToggle" type="checkbox" checked>
+          8px 吸附
+        </label>
+        <span class="toolbar-status" id="overflowStatus"></span>
+      </section>
+
+      <section class="canvas-stage" id="canvasStage">
+        <div class="scene-shell" id="sceneShell">
+          <div class="card-scene theme-warm-editorial" id="cardScene" role="img" aria-label="当前卡片预览"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <input id="deckFileInput" type="file" accept="application/json,.json" hidden>
+  <input id="elementImageInput" type="file" accept="image/*,.svg" hidden>
+
+  <script>
+    const BOOTSTRAP = {
+      markdown: "",
+      deck: null,
+      config: {},
+      assets: {},
+      layoutRegistry: []
+    };
+/*__LAYOUT_ENGINE_JS__*/
+/*__EDITOR_JS__*/
+  </script>
+</body>
+</html>

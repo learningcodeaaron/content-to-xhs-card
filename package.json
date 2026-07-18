@@ -1,0 +1,24 @@
+{
+  "name": "content-to-xhs-card",
+  "version": "0.1.0",
+  "description": "Turn long-form content into editable XHS card decks with a local-first AI Skill workflow.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "test": "node tests/skill-smoke.mjs",
+    "test:example": "node content-to-xhs-card/scripts/check_deck.mjs --input examples/ai-agent-moat/card-data.json && node content-to-xhs-card/scripts/check_html.mjs --input examples/ai-agent-moat/index.html",
+    "test:browser": "node content-to-xhs-card/scripts/browser_export_smoke.cjs --input examples/ai-agent-moat/index.html --output test-results/export-smoke.png",
+    "demo:video": "node tools/capture-demo.mjs --input examples/ai-agent-moat/index.html --output examples/ai-agent-moat/demo.webm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learningcodeaaron/content-to-xhs-card.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "1.60.0"
+  }
+}

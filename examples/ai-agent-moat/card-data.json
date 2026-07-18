@@ -1,0 +1,281 @@
+{
+    "schemaVersion":  2,
+    "id":  "deck-moat",
+    "title":  "AI Agent 公司到底有没有护城河？",
+    "source":  "前面-Aaron",
+    "canvas":  {
+                   "width":  1080,
+                   "height":  1440
+               },
+    "publication":  {
+                        "titles":  [
+                                       "护城河不在 Agent 三个字里",
+                                       "会做 Agent，不等于有护城河",
+                                       "3 年后客户为什么还非用你",
+                                       "投 Agent 公司前先问这五问",
+                                       "做出有用的 Agent，未必是好生意"
+                                   ],
+                        "body":  "现在人人都在讲 Agent，但“有用”和“有护城河”是两回事。一个 Agent 好用，只说明它解决了某个问题，不代表别人做不出、客户换不掉。\n\n技术领先在这里尤其不稳：底层能力进步太快，你今天认真解决的问题，明天可能被模型厂商顺手做掉。真正可能立住的护城河只有四类——嵌进深层业务流程、掌握客户独家的动态数据、做出足够高的切换成本、拿到分发入口；而前三类，往往被本就握有流程入口的巨头先拿走。\n\n所以判断一家 Agent 公司，别只看 Demo 炫不炫，要问它靠什么长期留住客户、维持定价权、不被模型和平台顺手做掉。方向对，不代表每家都是好生意。"
+                    },
+    "cards":  [
+                  {
+                      "id":  "card-01",
+                      "kind":  "cover",
+                      "layoutId":  "cover.editorial",
+                      "themeId":  "warm-editorial",
+                      "content":  {
+                                      "kicker":  "AI 观察",
+                                      "title":  "AI Agent 公司到底有没有护城河？",
+                                      "subtitle":  "能做出一个有用的 Agent，不等于做出一门有护城河的生意。",
+                                      "quote":  "技术只有转化为更低成本、更强品牌、更高转换成本或网络效应，才可能成为护城河。"
+                                  },
+                      "removedRoles":  [
+
+                                       ]
+                  },
+                  {
+                      "id":  "card-02",
+                      "kind":  "statement",
+                      "layoutId":  "statement.poster",
+                      "themeId":  "warm-editorial",
+                      "content":  {
+                                      "title":  "有用，不等于有护城河",
+                                      "lead":  "产品有用只说明它解决了问题；有护城河，说明别人不易解决，或客户不易换掉你。",
+                                      "quote":  "餐馆好吃不代表是好生意——味道能被抄，位置、品牌、复购才是壁垒。"
+                                  },
+                      "removedRoles":  [
+
+                                       ]
+                  },
+                  {
+                      "id":  "card-03",
+                      "kind":  "process",
+                      "layoutId":  "process.timeline",
+                      "themeId":  "warm-editorial",
+                      "content":  {
+                                      "title":  "被高估的一条投资逻辑",
+                                      "lead":  "这条链听起来很顺，却压着一个最大的假设。",
+                                      "items":  [
+                                                    {
+                                                        "title":  "AI 替代白领流程",
+                                                        "body":  "AI 会大规模替代白领的日常流程。"
+                                                    },
+                                                    {
+                                                        "title":  "Agent 是核心形态",
+                                                        "body":  "Agent 被视为 AI 落地的核心形态。"
+                                                    },
+                                                    {
+                                                        "title":  "企业为效率付费",
+                                                        "body":  "企业愿意为效率提升持续买单。"
+                                                    },
+                                                    {
+                                                        "title":  "长成软件巨头",
+                                                        "body":  "于是做 Agent 的会成为下一代巨头。"
+                                                    }
+                                                ],
+                                      "quote":  "最大的假设是：能把“模型能力”包装成“客户离不开的产品能力”。"
+                                  },
+                      "removedRoles":  [
+
+                                       ]
+                  },
+                  {
+                      "id":  "card-04",
+                      "kind":  "statement",
+                      "layoutId":  "statement.poster",
+                      "themeId":  "warm-editorial",
+                      "content":  {
+                                      "title":  "只靠“更会用模型”，护城河不够",
+                                      "lead":  "调 Prompt、串工具、早半年理解场景——这类领先都不够稳。",
+                                      "quote":  "底层能力进步太快，今天要认真解决的问题，明天可能被模型厂商顺手做掉。"
+                                  },
+                      "removedRoles":  [
+
+                                       ]
+                  },
+                  {
+                      "id":  "card-05",
+                      "kind":  "list",
+                      "layoutId":  "list.cards",
+                      "themeId":  "warm-editorial",
+                      "content":  {
+                                      "title":  "真正可能立住的护城河，只有四类",
+                                      "lead":  "不是“会做 Agent”，而是这四种结构性优势。",
+                                      "items":  [
+                                                    {
+                                                        "title":  "深层业务流程",
+                                                        "body":  "嵌进系统、权限、审批流，切换成本才会真正变高。"
+                                                    },
+                                                    {
+                                                        "title":  "独家动态数据",
+                                                        "body":  "客户真实行为与历史成交，而不是行业通识。"
+                                                    },
+                                                    {
+                                                        "title":  "高切换成本",
+                                                        "body":  "数据迁移、员工培训、流程重配都很麻烦。"
+                                                    },
+                                                    {
+                                                        "title":  "分发入口",
+                                                        "body":  "入口、习惯与网络效应，2C 尤其残酷。"
+                                                    }
+                                                ],
+                                      "quote":  "但前三类，往往被本就握有流程入口的巨头先拿走。"
+                                  },
+                      "removedRoles":  [
+
+                                       ]
+                  },
+                  {
+                      "id":  "card-06",
+                      "kind":  "comparison",
+                      "layoutId":  "comparison.split",
+                      "themeId":  "warm-editorial",
+                      "content":  {
+                                      "title":  "你说的数据，是哪一种？",
+                                      "left":  {
+                                                   "label":  "容易被吃掉",
+                                                   "title":  "行业通识",
+                                                   "items":  [
+                                                                 {
+                                                                     "title":  "理赔流程、报销规则、客服分类"
+                                                                 },
+                                                                 {
+                                                                     "title":  "看似有 know-how，实则可复制"
+                                                                 },
+                                                                 {
+                                                                     "title":  "时间一长被大模型和开源模板吃掉"
+                                                                 }
+                                                             ]
+                                               },
+                                      "right":  {
+                                                    "label":  "更有价值",
+                                                    "title":  "客户独家动态数据",
+                                                    "items":  [
+                                                                  {
+                                                                      "title":  "真实客户行为、内部流程"
+                                                                  },
+                                                                  {
+                                                                      "title":  "历史成交、实时库存、组织权限"
+                                                                  },
+                                                                  {
+                                                                      "title":  "持续改善产品效果，别人拿不到"
+                                                                  }
+                                                              ]
+                                                },
+                                      "quote":  "说自己有“行业数据护城河”，先问一句：是通识，还是客户独家？"
+                                  },
+                      "removedRoles":  [
+
+                                       ]
+                  },
+                  {
+                      "id":  "card-07",
+                      "kind":  "statement",
+                      "layoutId":  "statement.poster",
+                      "themeId":  "warm-editorial",
+                      "content":  {
+                                      "title":  "模型公司，会不会亲自下场？",
+                                      "lead":  "场景足够大、利润足够厚，模型公司为什么不自己做。",
+                                      "quote":  "做得太小长不大，做得太大就被模型公司、平台和 SaaS 巨头三边盯上。"
+                                  },
+                      "removedRoles":  [
+
+                                       ]
+                  },
+                  {
+                      "id":  "card-08",
+                      "kind":  "comparison",
+                      "layoutId":  "comparison.split",
+                      "themeId":  "warm-editorial",
+                      "content":  {
+                                      "title":  "最危险的，和最值得相信的",
+                                      "left":  {
+                                                   "label":  "最危险",
+                                                   "title":  "被三边挤压",
+                                                   "items":  [
+                                                                 {
+                                                                     "title":  "没模型、没独家数据、没入口"
+                                                                 },
+                                                                 {
+                                                                     "title":  "只靠 Prompt、编排与界面"
+                                                                 },
+                                                                 {
+                                                                     "title":  "被上游、平台、同行同时挤压"
+                                                                 }
+                                                             ]
+                                               },
+                                      "right":  {
+                                                    "label":  "更愿相信",
+                                                    "title":  "有结构性优势",
+                                                    "items":  [
+                                                                  {
+                                                                      "title":  "已握企业入口，或深耕垂直流程"
+                                                                  },
+                                                                  {
+                                                                      "title":  "拥有独家动态数据"
+                                                                  },
+                                                                  {
+                                                                      "title":  "把 Agent 做成系统，而非工具"
+                                                                  }
+                                                              ]
+                                                },
+                                      "quote":  "能赚钱和有护城河，从来不是一回事。"
+                                  },
+                      "removedRoles":  [
+
+                                       ]
+                  },
+                  {
+                      "id":  "card-09",
+                      "kind":  "list",
+                      "layoutId":  "list.cards",
+                      "themeId":  "warm-editorial",
+                      "content":  {
+                                      "title":  "不能只看 Demo，要问这五件事",
+                                      "lead":  "Demo 解决“能不能做出来”，生意解决“能不能长期赚钱”。",
+                                      "items":  [
+                                                    {
+                                                        "title":  "持续付费",
+                                                        "body":  "客户是否愿意长期付费？"
+                                                    },
+                                                    {
+                                                        "title":  "越用越好",
+                                                        "body":  "用得越久，产品是否越好用？"
+                                                    },
+                                                    {
+                                                        "title":  "换你很烦",
+                                                        "body":  "客户换掉你会不会很麻烦？"
+                                                    },
+                                                    {
+                                                        "title":  "增强还是吞掉",
+                                                        "body":  "模型变强后，你是被增强还是被吞掉？"
+                                                    },
+                                                    {
+                                                        "title":  "平台下场",
+                                                        "body":  "大平台亲自下场后，你还剩什么？"
+                                                    }
+                                                ],
+                                      "quote":  "方向对，不代表每家公司都是好生意。"
+                                  },
+                      "removedRoles":  [
+
+                                       ]
+                  },
+                  {
+                      "id":  "card-10",
+                      "kind":  "tail",
+                      "layoutId":  "tail.cta",
+                      "themeId":  "warm-editorial",
+                      "content":  {
+                                      "kicker":  "写在最后",
+                                      "quote":  "护城河不在“Agent”三个字里，而在流程、数据、入口、切换成本和客户关系里。",
+                                      "cta":  "会做 Agent 不等于有护城河；本就握有入口和数据的公司，用 Agent 只会更深。"
+                                  },
+                      "removedRoles":  [
+
+                                       ]
+                  }
+              ],
+    "subtitle":  "",
+    "created":  ""
+}

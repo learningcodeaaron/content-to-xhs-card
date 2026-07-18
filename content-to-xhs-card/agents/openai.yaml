@@ -1,0 +1,5 @@
+interface:
+  display_name: "内容转小红书卡片"
+  short_description: "把长文转成可编辑图卡、标题建议和发布正文"
+  brand_color: "#B75C33"
+  default_prompt: "使用 $content-to-xhs-card 先分析文章地图，输出逐卡完整文案、标题建议和发布正文；确认后生成可编辑并导出 PNG 的小红书 HTML 卡片。"
