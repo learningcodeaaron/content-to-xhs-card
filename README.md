@@ -18,6 +18,29 @@
 - 逐元素编辑文字、位置、字号、层级、图片与 SVG。
 - 编辑记录写入浏览器 IndexedDB，支持 JSON 往返。
 - 导出单张 PNG 或整套 ZIP，并附带 3～5 个标题建议和发布正文。
+- 默认 IP 人像和“前面-Aaron”仅作为演示起点，可替换为自己的 IP 人像、品牌名称、品牌图标与品牌网址。
+
+## 品牌自定义
+
+生成时可以根据自己的品牌调整默认素材，不必保留示例中的人物或“前面-Aaron”名称：
+
+```bash
+node content-to-xhs-card/scripts/content_to_cards.mjs \
+  --deck path/to/card-data.json \
+  --output path/to/output-dir \
+  --brand-name "你的品牌名称" \
+  --brand-url "https://example.com/" \
+  --avatar path/to/your-ip.png \
+  --brand-icon path/to/your-logo.png
+```
+
+- `--avatar`：替换封面等位置使用的默认 IP 人像。
+- `--brand-name`：替换卡片和编辑器中的默认品牌名称。
+- `--brand-icon`：替换左上角品牌入口与默认尾页使用的品牌图标。
+- `--brand-url`：替换点击品牌入口后打开的网址。
+- `--qr`：需要时可另外传入二维码图片，让尾页使用二维码。
+
+生成后的 HTML 仍可继续编辑文字、图片和页面元素；参数只是设置一套更贴近自己品牌的初始状态。
 
 ## 环境要求
 
